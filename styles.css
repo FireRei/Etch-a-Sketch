@@ -1,0 +1,40 @@
+#main {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 100px;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#btn {
+	display: flex;
+	align-self: flex-start;
+}
+
+
+#wrapper {
+	border: 1px solid black;
+	height: 660px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 660px;
+}
+
+.container {
+	display: grid;
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
+}
+
+.default {
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+}
+
+#box {
+	user-select: none;
+	border: 1px solid black;
+}
